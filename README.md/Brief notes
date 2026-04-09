@@ -1,0 +1,73 @@
+Data Analyst Assignment:
+
+Objective
+This project demonstrates core data analysis skills using SQL, Spreadsheets, and Python. It includes database creation, data analysis, and basic programming tasks.
+🛠️ Tools Used
+SQL: MySQL Workbench
+Spreadsheets: Microsoft Excel / Google Sheets
+Programming: Python (VS Code)
+
+📁 Project Structure
+Data_Analyst_Assignment/
+│
+├── SQL/
+│   ├── 01_Hotel_Schema_Setup.sql
+│   ├── 02_Hotel_Queries.sql
+│   ├── 03_Clinic_Schema_Setup.sql
+│   └── 04_Clinic_Queries.sql
+│
+├── Spreadsheets/
+│   └── Ticket_Analysis.xlsx
+│
+├── Python/
+│   ├── 01_Time_Converter.py
+│   └── 02_Remove_Duplicates.py
+│
+└── README.md
+
+
+SQL Tasks:
+Hotel Management System
+Created tables: users, bookings, items, booking_commercials
+Inserted sample data
+Queries:
+Last booked room per user
+Total billing in November 2021
+Bills greater than 1000
+Most/least ordered items
+Second highest bill
+Clinic Management System
+Created tables: clinics, customer, clinic_sales, expenses
+Inserted sample data
+Queries:
+Revenue by sales channel
+Top customers
+Monthly profit/loss
+Most profitable clinic
+Second least profitable clinic
+
+
+📊 Spreadsheet Tasks:
+Created two sheets: ticket and feedbacks
+Used XLOOKUP to fetch ticket created date
+Created helper columns:
+Same Day comparison using INT()
+Same Hour comparison using HOUR()
+Used COUNTIFS / Pivot Table for analysis
+
+
+
+Python Tasks
+1. Time Converter
+Converts minutes into hours and minutes
+Used integer division and modulus
+2. Remove Duplicates
+Removes duplicate characters from a string
+Implemented using loop and condition
+
+
+✅ Conclusion
+This assignment covers:
+SQL for database design and querying
+Excel for data analysis and reporting
+Python for basic programming logic
