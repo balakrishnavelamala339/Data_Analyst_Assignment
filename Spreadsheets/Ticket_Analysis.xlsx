@@ -1,0 +1,5 @@
+=VLOOKUP(A2, ticket!E:B, 4, FALSE)
+=INT(B2)=INT(C2)
+=HOUR(B2)=HOUR(C2)
+=COUNTIFS(outlet_id_range, "Outlet1", same_day_range, TRUE)
+=COUNTIFS(outlet_id_range, "Outlet1", same_hour_range, TRUE)
